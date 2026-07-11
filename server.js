@@ -3,7 +3,7 @@ const http = require('http');
 const { Server } = require('socket.io');
 const TelegramBot = require('node-telegram-bot-api');
 
-const token = '8680680071:AAH-2szhMnDrstNLtojcWJlerBvTEMYfPf4'; // የእፕን Token እዚህ አስገባ
+const token = 'https://liyu-bingo-3.onrender.com'; // የእፕን Token እዚህ አስገባ
 const bot = new TelegramBot(token, { polling: true });
 const app = express();
 const server = http.createServer(app);
