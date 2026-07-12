@@ -160,7 +160,7 @@ async def button_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 def main():
     # ቦት ቶከንዎን (Bot Token) እዚህ ያስገቡ
-    BOT_TOKEN = "YOUR_TELEGRAM_BOT_TOKEN_HERE"
+    BOT_TOKEN = "8680680071:AAH-2szhMnDrstNLtojcWJlerBvTEMYfPf4"
 
     app = Application.builder().token(BOT_TOKEN).build()
 
